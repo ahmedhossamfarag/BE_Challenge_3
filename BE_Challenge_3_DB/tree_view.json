@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "name": "folder1",
+    "color": "blue",
+    "course_id": 1,
+    "folder_id": null,
+    "files": [
+      {
+        "id": 3,
+        "title": "title",
+        "content": "content",
+        "folder_id": 1,
+        "course_id": 1
+      }
+    ],
+    "folders": [
+      {
+        "id": 3,
+        "name": "folder1",
+        "color": "blue",
+        "course_id": 1,
+        "folder_id": 1,
+        "files": [
+          {
+            "id": 1,
+            "title": "title",
+            "content": "content",
+            "folder_id": 3,
+            "course_id": 1
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "folder2",
+    "color": "blue",
+    "course_id": 1,
+    "folder_id": null,
+    "files": [
+      {
+        "id": 2,
+        "title": "title",
+        "content": "content",
+        "folder_id": 2,
+        "course_id": 1
+      }
+    ],
+    "folders": []
+  }
+]

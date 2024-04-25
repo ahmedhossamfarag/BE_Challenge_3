@@ -1,0 +1,29 @@
+http://localhost:8080/?id=1
+http://localhost:8080/CreateCourse
+{
+  "id":1
+}
+http://localhost:8080/CreateFolder
+{
+    "id": 2,
+    "name": "folder1",
+    "color": "blue",
+    "course_id": 1
+}
+{
+    "id": 3,
+    "name": "folder1",
+    "color": "blue",
+    "course_id": 1,
+    "folder_id": 1
+}
+http://localhost:8080/CreateFile
+{
+    "id": 1,
+    "title": "title",
+    "content": "content",
+    "course_id": 1,
+    "folder_id": 3
+}
+http://localhost:8080/DeleteFile?id=1
+http://localhost:8080/DeleteFolder?id=1
